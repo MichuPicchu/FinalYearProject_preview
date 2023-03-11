@@ -13,7 +13,9 @@ Note: Here, I have removed the frontend components, and only included the backen
 
 Here is the database architecture, implemented with a cloud database.
 
-![Screenshot](readme_images/database_design.png)
+<p align="center">
+<img src="readme_images/database_design.png"  width="80%" >
+</p>
 
 <br></br>
 
@@ -29,21 +31,28 @@ Firstly, the model required a matrix of p x p dimensions (where p is the number 
 
 <br></br>
 
-![Screenshot](readme_images/similarity_formula.png)
+<p align="center">
+<img src="readme_images/similarity_formula.png"  width="40%" >
+</p>
 
 <br></br>
 
-Then with this similarity matrix, we were able to calculate and predict the score with this formula
+Then with this similarity matrix, we were able to calculate and predict the score with this formula:
 
 <br></br>
 
-![Screenshot](readme_images/recommendation_score.png)
+
+<p align="center">
+<img src="readme_images/recommendation_score.png"  width="40%" >
+</p>
 
 <br></br>
 
 The final result :
 
-![Screenshot](readme_images/recommender_page.png)
+<p align="center">
+<img src="readme_images/recommender_page.png"  width="80%" >
+</p>
 
 <br></br>
 
@@ -51,25 +60,33 @@ The final result :
 
 Login/register page :
 
-![Screenshot](readme_images/register_page.png)
+<p align="center">
+<img src="readme_images/register_page.png"  width="80%" >
+</p>
 
 <br></br>
 
 Restaurant Page:
 
-![Screenshot](readme_images/restaurant_page.png)
+<p align="center">
+<img src="readme_images/restaurant_page.png"  width="80%" >
+</p>
 
 <br></br>
 
 Profile Page:
 
-![Screenshot](readme_images/profile_page_1.png)
+<p align="center">
+<img src="readme_images/profile_page_1.png"  width="80%" >
+</p>
 
 <br></br>
 
 Community Page:
 
-![Screenshot](readme_images/community_page.png)
+<p align="center">
+<img src="readme_images/community_page.png"  width="80%" >
+</p>
 
 
 

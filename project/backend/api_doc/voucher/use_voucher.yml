@@ -1,0 +1,31 @@
+using voucher
+---
+tags:
+  - Voucher
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          rid:
+            type: integer
+            description: restaurant id
+          code:
+            type: string
+            description: code of voucher
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the voucher.
+  400:
+    description: invalid code
+  401:
+    description: voucher already used
+  402:
+    description: This is not a voucher for your restaurant
+  403:
+    description: voucher not booked
+  405:
+    description: database error

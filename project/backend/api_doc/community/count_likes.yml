@@ -1,0 +1,19 @@
+counting the total likes for a user
+---
+tags:
+  - Community
+parameters:
+  - in: path
+    name: uid
+    schema:
+      type: integer
+      example: 1
+    required: true
+    description: user id
+consumes:
+  - application/json
+responses:
+  200:
+    description: number of likes
+  400:
+    description: database error

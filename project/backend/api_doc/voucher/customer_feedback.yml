@@ -1,0 +1,26 @@
+write feedbacks and ratings as a customer
+---
+tags:
+  - Voucher
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          vid:
+            type: integer
+            example: 1
+          ratings:
+            type: integer
+            example: 5
+          review:
+            type: string
+            example: "good"
+consumes:
+  - application/json
+responses:
+  200:
+    description: return success message.
+  400:
+    description: return error message.

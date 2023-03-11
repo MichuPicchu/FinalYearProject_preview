@@ -1,0 +1,59 @@
+For user registration
+---
+tags:
+  - User
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          user_name:
+            type: string
+            example: theUser
+          password:
+            type: string
+            example: '12345'
+          role:
+            type: string
+            example: 'customer'
+          preference:
+            type: string
+            example: "chinese"
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the user.
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            user_name:
+              type: string
+              example: theUser
+            password:
+              type: string
+              example: '12345'
+            role:
+              type: string
+              example: 'customer'
+            preference:
+              type: string
+              example: "chinese"
+            join_date:
+              type: string
+              example: "2020-11-11"
+            join_time:
+              type: string
+              example: "11:11:11"
+            rid:
+              description: it can be 'null'
+              type: integer
+              example: 1
+            token:
+              type: string
+              example: "2d1f768a-387f-43f1-9049-c30073692f6f"
+  400:
+    description: return error message.

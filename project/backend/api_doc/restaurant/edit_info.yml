@@ -1,0 +1,23 @@
+Edit restaurant info
+---
+tags:
+  - Restaurant
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          rid:
+            type: integer
+            example: 1
+          name:
+            type: string
+            example: "hello"
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the question.
+  400:
+    description: return error message.

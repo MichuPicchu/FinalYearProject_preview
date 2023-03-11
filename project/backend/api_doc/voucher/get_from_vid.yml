@@ -1,0 +1,19 @@
+Get all information about a voucher from VID
+---
+tags:
+  - Voucher
+parameters:
+  - in: header
+    name: vid
+    schema:
+      type: integer
+      example: 1
+    required: true
+    description: voucher id
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the voucher.
+  400:
+    description: return error message.

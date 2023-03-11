@@ -1,0 +1,32 @@
+writing article in community
+---
+tags:
+  - Community
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          uid:
+            type: integer
+            description: user id
+          rid:
+            type: string
+            description: restaurant id
+          title:
+            type: string
+            description: title of the article
+          content:
+            type: string
+            description: content of the article
+          img:
+            type: string
+            description: image of the article
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of this article.
+  400:
+    description: return error message.

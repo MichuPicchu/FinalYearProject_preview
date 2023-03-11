@@ -1,0 +1,29 @@
+Edit user profile
+---
+tags:
+  - User
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          user_name:
+            type: string
+            example: 'leo'
+#          password:
+#            type: string
+#            example: 'test'
+          uid:
+            type: integer
+            example: 2
+#          preference:
+#            type: string
+#            example: "chinese"
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the user.
+  400:
+    description: return error message.

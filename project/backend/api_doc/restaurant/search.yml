@@ -1,0 +1,40 @@
+searching restaurants by keywords
+---
+tags:
+  - Restaurant
+parameters:
+  - in: header
+    name: keyword
+    schema:
+      type: string
+      example: 'monkey'
+    required: true
+    description: name, cuisine, or address of the restaurant
+  - in: header
+    name: cuisine
+    schema:
+      type: string
+      example: 'null'
+    required: false
+    description: cuisine
+  - in: header
+    name: discount
+    schema:
+      type: string
+      example: 'null'
+    required: false
+    description: if the restaurant has discount
+  - in: header
+    name: preference
+    schema:
+      type: string
+      example: 'null'
+    required: false
+    description: if the restaurant has discount
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the user.
+  400:
+    description: return error message.

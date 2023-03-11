@@ -1,0 +1,11 @@
+update the remaining number of each type of voucher
+---
+tags:
+  - Voucher
+consumes:
+  - application/json
+responses:
+  200:
+    description: return successful message.
+  400:
+    description: return error message.

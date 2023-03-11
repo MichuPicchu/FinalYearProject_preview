@@ -1,0 +1,33 @@
+For user login
+---
+tags:
+  - User
+parameters:
+  - in: header
+    name: user_name
+    schema:
+      type: string
+      example: 'ruby'
+    required: true
+    description: user name
+  - in: header
+    name: password
+    schema:
+      type: string
+      example: '123'
+    required: true
+    description: password
+  - in: header
+    name: role
+    schema:
+      type: string
+      example: 'customer'
+    required: true
+    description: role
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the user.
+  400:
+    description: return error message.

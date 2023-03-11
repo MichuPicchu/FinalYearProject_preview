@@ -1,0 +1,25 @@
+Delete whole question (contains answers)
+---
+tags:
+  - Restaurant
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          uid:
+            type: integer
+            example: 1
+          qid:
+            type: integer
+            example: 2
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the question.
+  400:
+    description: not such qid.
+  401:
+    description: not the owner of the question.

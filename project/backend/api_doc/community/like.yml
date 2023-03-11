@@ -1,0 +1,25 @@
+like an article
+---
+tags:
+  - Community
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          aid:
+            type: integer
+            description: article id
+          uid:
+            type: integer
+            description: user id
+consumes:
+  - application/json
+responses:
+  200:
+    description: successful like.
+  400:
+    description: already liked.
+  401:
+    description: database error.

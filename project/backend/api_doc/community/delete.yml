@@ -1,0 +1,30 @@
+delete article
+---
+tags:
+  - Community
+parameters:
+  - in: header
+    name: aid
+    schema:
+      type: integer
+      example: 1
+    required: true
+    description: article id
+  - in : header
+    name: uid
+    schema:
+      type: integer
+      example: 1
+    required: true
+    description: user id
+consumes:
+  - application/json
+responses:
+  200:
+    description: success
+  400:
+    description: invalid aid
+  401:
+    description: invalid uid, not the owner of the article
+  402:
+    description: database error

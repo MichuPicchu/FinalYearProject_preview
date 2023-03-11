@@ -1,0 +1,19 @@
+get all question for one restaurant
+---
+tags:
+  - Restaurant
+parameters:
+  - in: header
+    name: rid
+    schema:
+      type: integer
+    required: true
+    description: restaurant id
+    example: 7
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all questions and answer.
+  400:
+    description: return error message.

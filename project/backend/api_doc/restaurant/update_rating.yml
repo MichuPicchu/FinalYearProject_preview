@@ -1,0 +1,9 @@
+Update the ratings for each restaurant
+---
+tags:
+  - Restaurant
+responses:
+  200:
+    description: update rating for every restaurants
+  400:
+    description: database error

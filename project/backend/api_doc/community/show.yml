@@ -1,0 +1,18 @@
+show all existing articles via given uid
+---
+tags:
+  - Community
+parameters:
+  - in: path
+    name: uid
+    schema:
+      type: integer
+    required: true
+    description: user id
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all articles.
+  400:
+    description: return error message.

@@ -1,0 +1,9 @@
+Get four restaurants to advertise
+---
+tags:
+  - Restaurant
+consumes:
+  - application/json
+responses:
+  200:
+    description: return

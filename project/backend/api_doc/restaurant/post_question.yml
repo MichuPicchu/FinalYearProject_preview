@@ -1,0 +1,26 @@
+post question
+---
+tags:
+  - Restaurant
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          uid:
+            type: integer
+            example: 1
+          rid:
+            type: integer
+            example: 1
+          content:
+            type: string
+            example: "My son is a vegan, I would like to know if your restaurant serves vegan food."
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of the question.
+  400:
+    description: return error message.

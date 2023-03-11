@@ -1,0 +1,9 @@
+Get the fourth highest bid
+---
+tags:
+  - Restaurant
+consumes:
+  - application/json
+responses:
+  200:
+    description: return

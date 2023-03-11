@@ -1,0 +1,41 @@
+generate vouchers
+---
+tags:
+  - Voucher
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          rid:
+            type: integer
+            example: 1
+            description: restaurant id
+          num:
+            type: string
+            example: 2
+            description: number of vouchers to generate
+          discount:
+            type: integer
+            example: 20
+            description: discount percentage
+          title:
+            type: string
+            example: 'summer offer'
+            description: title of the voucher
+          description:
+            type: string
+            example: 'this is summer offer'
+            description: description of the voucher
+          regular:
+            type: string
+            example: "weekly"
+            description: regularity of the voucher
+consumes:
+  - application/json
+responses:
+  200:
+    description: return success message.
+  400:
+    description: return error message.

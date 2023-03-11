@@ -1,0 +1,19 @@
+Get coupons that users have not used
+---
+tags:
+  - User
+parameters:
+  - in: path
+    name: uid
+    schema:
+      type: integer
+      example: 1
+    required: true
+    description: user id
+consumes:
+  - application/json
+responses:
+  200:
+    description: a list of all the coupons for a user.
+  400:
+    description: return error message.

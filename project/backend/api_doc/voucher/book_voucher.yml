@@ -1,0 +1,37 @@
+Book vouchers
+---
+tags:
+  - Voucher
+requestBody:
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          uid:
+            type: integer
+            example: 1
+          gvid:
+            type: integer
+            example: 16
+consumes:
+  - application/json
+responses:
+  200:
+    description: Important information about this coupon.
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            uid:
+              type: integer
+              example: 1
+            vid:
+              type: integer
+              example: 10
+            code:
+              type: string
+              example: "ec85a000-2d14-4ef1-b364-315511ba1c5c"
+  400:
+    description: return error message.

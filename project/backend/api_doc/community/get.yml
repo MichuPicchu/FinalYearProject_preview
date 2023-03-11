@@ -1,0 +1,18 @@
+get info via article id
+---
+tags:
+  - Community
+parameters:
+  - in: path
+    name: aid
+    schema:
+      type: integer
+    required: true
+    description: article id
+consumes:
+  - application/json
+responses:
+  200:
+    description: return all the information of this article.
+  400:
+    description: return error message.

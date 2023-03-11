@@ -1,19 +1,23 @@
 # Final Year Project
 
-![Screenshot](readme_images/search_bar.png)
-
-
-## Description :
 
 Note: Here, I have removed the frontend components, and only included the backend (parts that I have worked on) due to plagiarism.
 
-### Back-end setup (Python, FlaskAPI, SQLlite)
+![Screenshot](readme_images/search_bar.png)
+
+<br></br>
+
+## Special notes for backend:
+
+- ### Back-end setup (Python, FlaskAPI, SQLlite)
 
 Here is the database architecture, implemented with a cloud database.
 
 ![Screenshot](readme_images/database_design.png)
 
-### Recommender System (Item-based collaborative filtering)
+<br></br>
+
+- ### Recommender System (Item-based collaborative filtering)
 
 The aim of the recommendation system was to automatically recommend restaurants to users that they have never been to that they would likely like.
 
@@ -23,35 +27,50 @@ The recommendation system was designed on the Item-based collaborative filtering
 
 Firstly, the model required a matrix of p x p dimensions (where p is the number of restaurants). The matrix would represent a similarity matrix, giving a similarity score (between -1 and 1) for each restaurant. The similarity score would be based on the ratings given by the users to the restaurant.
 
+<br></br>
+
 ![Screenshot](readme_images/similarity_formula.png)
+
+<br></br>
 
 Then with this similarity matrix, we were able to calculate and predict the score with this formula
 
+<br></br>
+
 ![Screenshot](readme_images/recommendation_score.png)
+
+<br></br>
 
 The final result :
 
 ![Screenshot](readme_images/recommender_page.png)
 
-### Unit testing (Python unittest library)
+<br></br>
 
-
-## Website Preview:
+## Website other pages preview:
 
 Login/register page :
 
 ![Screenshot](readme_images/register_page.png)
 
+<br></br>
+
 Restaurant Page:
 
 ![Screenshot](readme_images/restaurant_page.png)
+
+<br></br>
 
 Profile Page:
 
 ![Screenshot](readme_images/profile_page_1.png)
 
+<br></br>
+
 Community Page:
 
 ![Screenshot](readme_images/community_page.png)
+
+
 
 

@@ -1,6 +1,6 @@
-# Usage (README was part of original project)
+# Usage
 
-## Front-end setup
+## Front-end setup (removed for the preview)
 
 `cd frontend`
 

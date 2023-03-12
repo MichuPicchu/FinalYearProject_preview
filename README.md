@@ -5,6 +5,13 @@ Note: Here, I have removed the frontend components, and only included the backen
 
 ![Screenshot](readme_images/search_bar.png)
 
+<br>
+Summary:
+- It was a group project of 5 people.
+- The workload was split between frontend and backend. I worked on about 85% of the backend, whilst I had another groupmate work on the remaining 15% of backend, since he also helped out with frontend. The remaining 3 worked solely on frontend.
+- I worked on the flask blueprints, functions, database design, recommender system, and unit testing.
+
+
 <br></br>
 
 ## Special notes for backend:

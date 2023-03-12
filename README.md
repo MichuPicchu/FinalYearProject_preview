@@ -1,7 +1,7 @@
 # Final Year Project
 
 
-Note: Here, I have removed the frontend components, and only included the backend (parts that I have worked on) due to plagiarism.
+Note: Here, I have removed the frontend components, and only included the backend (parts that I have worked on) due to potential plagiarism flags.
 
 ![Screenshot](readme_images/search_bar.png)
 
